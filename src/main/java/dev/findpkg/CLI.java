@@ -2,7 +2,7 @@ package dev.findpkg;
 
 public class CLI {
 
-    public static void run(String[] a {
+    public static void run(String[] args) {
 
         if (args.length != 2) {
             printHelp();
